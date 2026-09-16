@@ -2,6 +2,8 @@ import subprocess
 import sys
 from rich.console import Console
 
+from mitool import deps
+
 VERSION = "1.6.0"
 
 console = Console()
@@ -44,6 +46,7 @@ def get_choice():
 
 
 def main():
+    deps.ensure_deps()
     print_header()
     print_menu()
 

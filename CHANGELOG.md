@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.1
+- Auto-install libusb (apt/dnf/yum/pacman/zypper on Linux, brew on macOS, pkg on Termux, libusb_package via pip on Windows) and termux-api (non-root Termux) on first run
+- Writes udev rules for Xiaomi/Qualcomm/Google USB vendor IDs on Linux (desktop) so flashing/unlocking works without root
+- Checks for the Termux:API app on Termux and warns with a download link if it's missing (needed by miasst, miflash, and miunlock)
+- Requires Python >=3.9 (was >=3.8) and miasst >=1.4.3
+
 ## 1.6.0
 - Converger to a CLI tool
 - improvements
