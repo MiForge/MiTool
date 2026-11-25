@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.2
+- Bump dependencies to latest:
+  - miunlock >= 1.7.5
+  - miasst >= 1.5.1
+  - miapply >= 1.0.2
+
 ## 1.6.1
 - Auto-install libusb (apt/dnf/yum/pacman/zypper on Linux, brew on macOS, pkg on Termux, libusb_package via pip on Windows) and termux-api (non-root Termux) on first run
 - Writes udev rules for Xiaomi/Qualcomm/Google USB vendor IDs on Linux (desktop) so flashing/unlocking works without root
