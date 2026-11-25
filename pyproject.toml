@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pymitool"
 license = "Apache-2.0"
-version = "1.6.1"
+version = "1.6.2"
 description = "Cross-platform CLI for Xiaomi"
 readme = "README.md"
 requires-python = ">=3.9"
