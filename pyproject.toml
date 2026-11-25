@@ -10,10 +10,10 @@ description = "Cross-platform CLI for Xiaomi"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "miunlock >= 1.7.3",
+    "miunlock >= 1.7.5",
     "miflash >= 1.0.0",
-    "miasst >= 1.4.3",
-    "miapply >= 1.0.1",
+    "miasst >= 1.5.1",
+    "miapply >= 1.0.2",
     "fcetool >= 1.0.6",
 ]
 
